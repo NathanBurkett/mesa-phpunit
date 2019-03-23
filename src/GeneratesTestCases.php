@@ -3,7 +3,6 @@
 use NathanBurkett\Mesa\Fixture\PHPUnit\Output\PHPUnitTestCaseGenerator;
 use NathanBurkett\Mesa\Fixture\PHPUnit\PathResolver\PathResolver;
 use NathanBurkett\Mesa\Fixture\PHPUnit\PathResolver\PHPUnitDataSetPathResolver;
-use NathanBurkett\Mesa\Fixture\PHPUnit\PathResolver\ReflectionPathResolver;
 use NathanBurkett\Mesa\GeneratesTables;
 use NathanBurkett\Mesa\Output\OutputStrategy;
 

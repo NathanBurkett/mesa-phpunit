@@ -5,3 +5,4 @@ infection.json
 
 vendor
 output
+!src/Output
