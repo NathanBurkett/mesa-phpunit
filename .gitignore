@@ -1,0 +1,7 @@
+phpcs.xml
+phpmd.xml
+phpunit.xml
+infection.json
+
+vendor
+output
