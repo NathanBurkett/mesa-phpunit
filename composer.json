@@ -21,12 +21,12 @@
     ],
     "require": {
         "nathanburkett/mesa": "0.1.0",
-        "phpunit/phpunit": "^7.5",
+        "phpunit/phpunit": "^8.5",
         "php": "^7.1"
     },
     "require-dev": {
-        "phpstan/phpstan": "^0.11.4",
-        "phpmd/phpmd": "^2.6",
-        "squizlabs/php_codesniffer": "^3.4"
+        "phpmd/phpmd": "^2.8",
+        "squizlabs/php_codesniffer": "^3.5",
+        "vimeo/psalm": "^3.8"
     }
 }
