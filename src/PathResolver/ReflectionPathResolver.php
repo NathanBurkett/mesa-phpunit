@@ -52,7 +52,7 @@ class ReflectionPathResolver extends FilePathResolver
         }
     }
 
-    protected function buildPath()
+    protected function buildPath(): void
     {
         $this->sanitizePath();
 

@@ -11,7 +11,7 @@ class PHPUnitTestCaseGeneratorTest extends TestCase
      */
     private $outputStrategy;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->outputStrategy = new PHPUnitTestCaseGenerator();
     }
