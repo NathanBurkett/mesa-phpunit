@@ -2,15 +2,15 @@ vendor: composer.json composer.lock
 	composer install -n --prefer-dist
 
 phpcs:
-	-vendor/bin/phpcs -p --colors
+	-vendor/bin/phpcs -p --colors > output/code-quality.txt
 
 phpmd:
 	-vendor/bin/phpmd src/ text phpmd.xml.dist > output/mess-detector.txt
 
-phpstan:
-	-vendor/bin/phpstan analyse src/ tests/ -l max --no-interaction --no-progress --error-format=checkstyle > output/checkstyle.xml
+psalm:
+	-vendor/bin/psalm --config=psalm.xml.dist > output/code-analysis.txt
 
 coverage-test:
 	vendor/bin/phpunit --config phpunit.xml.dist
 
-code-standards: phpcs phpmd phpstan
+code-standards: phpcs phpmd psalm
